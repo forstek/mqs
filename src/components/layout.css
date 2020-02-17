@@ -533,6 +533,9 @@ blockquote *:last-child {
 li *:last-child {
   margin-bottom: 0;
 }
+p {
+  text-align: justify;
+}
 p *:last-child {
   margin-bottom: 0;
 }

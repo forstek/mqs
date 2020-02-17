@@ -8,16 +8,19 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+import Helmet from 'react-helmet'
 
 import Header from "./header"
 import "./layout.css"
+import favicon from '../images/favicon.png'
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
         siteMetadata {
-          title
+          title,
+          subtitle
         }
       }
     }
@@ -25,7 +28,10 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
+      {/*<Helmet>
+        <link rel="icon" href={favicon} />
+      </Helmet>*/}
+      <Header siteTitle={data.site.siteMetadata.title} siteSubtitle={data.site.siteMetadata.subtitle}/>
       <div
         style={{
           margin: `0 auto`,
@@ -34,10 +40,10 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
+        <footer style={{ fontSize: '11px', textAlign: 'center', color: 'lightGrey' }}>
+          Built with 🧡 by
           {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <a href="https://forstek.co">forstek</a>
         </footer>
       </div>
     </>
