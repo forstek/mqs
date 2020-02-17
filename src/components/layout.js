@@ -40,7 +40,7 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer style={{ fontSize: '11px', textAlign: 'center', color: 'lightGrey' }}>
+        <footer style={{ marginTop: '100px', fontSize: '11px', textAlign: 'center', color: 'lightGrey' }}>
           Built with 🧡 by
           {` `}
           <a href="https://forstek.co">forstek</a>
