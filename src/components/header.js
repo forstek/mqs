@@ -42,7 +42,7 @@ const Header = ({ siteTitle, siteSubtitle }) => (
             {siteSubtitle}
             <div style={{ display: 'flex', fontSize: '20px', marginTop: '8px', verticalAlign: 'center' }}>
               <a  style={{ color: 'white', marginRight: '8px' }} 
-                href="https://goo.gl/maps/j8zqri9L2kC4YBwp9"
+                href="https://maps.app.goo.gl/y3NHhbUEcMG6kazK7"
                 target='_blank'
                 rel='noreferrer noopener'
               >
