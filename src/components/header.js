@@ -1,9 +1,16 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import { FaInstagram, FaMapMarkerAlt } from 'react-icons/fa'
+import { 
+  FaEnvelope,
+  FaInstagram, 
+  FaMapMarkerAlt, 
+  FaPhone, 
+  FaWhatsapp 
+} from 'react-icons/fa'
 
 import mqs from '../images/mqs.webp'
+import contacts from '../constants/contacts' 
 
 const Header = ({ siteTitle, siteSubtitle }) => (
   <header
@@ -21,7 +28,7 @@ const Header = ({ siteTitle, siteSubtitle }) => (
     >
       <h1 style={{ margin: 0 }}>
         <div style={{ display: 'flex' }}>
-          <div style={{ width: '100px', height: '100px', borderRadius: '50%', overflow: 'hidden', marginRight: '24px', border: '2px solid white' }}>
+          <div style={{ width: '116px', height: '116px', borderRadius: '50%', overflow: 'hidden', marginRight: '24px', border: '2px solid white' }}>
             <img src={mqs} />
           </div>
           <div style={{flex: '1'}}>
@@ -40,16 +47,33 @@ const Header = ({ siteTitle, siteSubtitle }) => (
               marginTop: '8px'
             }}>
             {siteSubtitle}
-            <div style={{ display: 'flex', fontSize: '20px', marginTop: '8px', verticalAlign: 'center' }}>
-              <a  style={{ color: 'white', marginRight: '8px' }} 
-                href="https://maps.app.goo.gl/y3NHhbUEcMG6kazK7"
+            <div style={{ display: 'flex', fontSize: '20px', marginTop: '20px', verticalAlign: 'center' }}>
+              <a  style={{ color: 'white', marginRight: '16px' }} 
+                href={contacts.gmaps}
                 target='_blank'
                 rel='noreferrer noopener'
               >
                 <FaMapMarkerAlt/>
               </a>
-              <a  style={{ color: 'white' }} 
-                href="https://www.instagram.com/qolbun.saliim/"
+              <a  style={{ color: 'white', marginRight: '16px' }} 
+                href={`mailto: ${contacts.email}`}
+              >
+                <FaEnvelope/>
+              </a>
+              <a  style={{ color: 'white', marginRight: '16px' }} 
+                href={`tel:${contacts.phone}`}
+              >
+                <FaPhone/>
+              </a>
+              <a  style={{ color: 'white', marginRight: '16px' }} 
+                href={`https://wa.me/${contacts.wa}?text=${contacts.waDefaultText}`}
+                target='_blank'
+                rel='noreferrer noopener'
+              >
+                <FaWhatsapp/>
+              </a>
+              <a  style={{ color: 'white', marginRight: '16px' }} 
+                href={contacts.ig}
                 target='_blank'
                 rel='noreferrer noopener'
               >
