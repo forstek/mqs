@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import { Carousel } from 'antd'
 
 import Layout from "../components/layout"
@@ -12,6 +11,9 @@ import plan3 from '../images/lantai_2.jpg'
 import prev1 from '../images/prev1.jpg'
 import prev2 from '../images/prev2.jpg'
 import prev3 from '../images/prev3.jpg'
+import prev4 from '../images/prev4.jpg'
+import prev5 from '../images/prev5.jpg'
+import prev6 from '../images/prev6.jpg'
 
 import post1 from '../images/post1.jpg'
 import post3 from '../images/post3.jpg'
@@ -37,6 +39,9 @@ const ReportPage = () => (
 		    <img src={prev1} />
 	      <img src={prev2} />
 	      <img src={prev3} />
+	      <img src={prev4} />
+	      <img src={prev5} />
+	      <img src={prev6} />
 		  </Carousel>
 		</div>
 
