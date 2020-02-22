@@ -4,6 +4,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import img1 from "../images/pengembangan.webp"
 import SEO from "../components/seo"
+import 'antd/dist/antd.css'
 
 const salam = 'السلام عليكم ورحمة الله وبركاته'
 
@@ -24,8 +25,7 @@ const IndexPage = () => (
       </div>
       <p>Untuk itu kami memohon maaf jika selama proses pembangunan akan mengganggu kenyamanan jamaah dalam beribadah. Dan kami juga memohon do’a dan support dari jamaah sekalian, semoga Allah mudahkan ikhtiar kita dalam memakmurkan masjid kita tercinta. Aamiin. </p>
       <p>Atas perhatiannya kami mengucapkan terima kasih, jazaakumullaahu khairan. </p>
-      <hr/>
-      <p>Dokumen: </p>
+      <p style={{ marginTop: '40px'}}>Dokumen: </p>
       <p style={{ marginBottom: '0.5rem' }}>
         <a href="https://drive.google.com/file/d/1LXtpKEg_5ZC205GYbINfwsWh_ExiVxvS/view?usp=sharing" 
           target="_blank" 
@@ -51,8 +51,6 @@ const IndexPage = () => (
         </a>
       </p>
     </div>
-
-    {/*<Link to="/page-2/">Go to page 2</Link>*/}
   </Layout>
 )
 
