@@ -19,11 +19,13 @@ const TransferPage = () => (
 	    <br />
 	    <h3>Bank Transfer</h3>
 	    <br />
+	    <h4>Bank BNI Syariah</h4>
+	    <p style={{ marginBottom: '0.25rem', fontSize: '1rem', fontWeight: 'bold' }}>100 7000 110</p>
+	    <p style={{ fontSize: '1rem' }}>a.n. DKM Qolbun Saliim</p>
+	    <br />
 	    <h4>Bank BRI</h4>
-	    <div style={{ fontSize: '1rem', fontWeight: 'bold' }}>
-		    <p style={{ marginBottom: '0.25rem' }}>0776 01 006366 50 8</p>
-		    <p>Erry Firman QQ DKM Qolbun Saliim</p>
-	   	</div>
+	    <p style={{ marginBottom: '0.25rem', fontSize: '1rem', fontWeight: 'bold' }}>0776 01 006366 50 8</p>
+	    <p style={{ fontSize: '1rem' }}>a.n. Erry Firman QQ DKM Qolbun Saliim</p>
 	    <br />
 	    <p style={{ marginBottom: '0.25rem' }}>Untuk metode transfer, mohon menyertakan kode unik 1 pada digit terakhir nominal transfer anda.</p>
 	    <p>Contoh: <strong>500.000.00<span style={{color: 'red'}}>1</span></strong></p>
