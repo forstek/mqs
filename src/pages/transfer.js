@@ -2,12 +2,21 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import img2 from "../images/flyer-infaq.webp"
 
 const TransferPage = () => (
   <Layout>
     <SEO title="Transfer" />
     <div>
 	    <h1 style={{ textAlign: 'center', margin: '60px auto' }}>Metode penyerahan dana waqaf</h1>
+	    <div style={{ margin: '1.45rem auto' }}>
+        <a href="https://drive.google.com/drive/folders/1tqUeZ5de4_i3o6PwElfR7qpLR5MIAGXy?usp=sharing" 
+          target="_blank" 
+          rel="noreferer noopener"
+        >
+          <img src={img2} />
+        </a>
+      </div>
 	    <h3>Langsung / Cash</h3>
 	    <br />
 	    <h4>Sekretariat DKM Qolbun Saliim</h4>
