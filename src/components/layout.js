@@ -55,6 +55,11 @@ class Layout extends React.Component {
         break
       }
 
+      case 'blog': {
+        window.open('https://masjidqolbunsaliim.wordpress.com')
+        break
+      }
+
       default:
     }
   }
@@ -84,6 +89,10 @@ class Layout extends React.Component {
           <Menu.Item key="docs">
             <Icon type="file-text" />
             Dokumen
+          </Menu.Item>
+          <Menu.Item key="blog">
+            <Icon type="unordered-list" />
+            Blog
           </Menu.Item>
         </Menu>
         <div
