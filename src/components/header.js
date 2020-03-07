@@ -6,7 +6,8 @@ import {
   FaInstagram, 
   FaMapMarkerAlt, 
   FaPhone, 
-  FaWhatsapp 
+  FaWhatsapp,
+  FaYoutube
 } from 'react-icons/fa'
 
 import mqs from '../images/mqs.webp'
@@ -78,6 +79,13 @@ const Header = ({ siteTitle, siteSubtitle }) => (
                 rel='noreferrer noopener'
               >
                 <FaInstagram/>
+              </a>
+              <a  style={{ color: 'white', marginRight: '16px' }} 
+                href={contacts.youtube}
+                target='_blank'
+                rel='noreferrer noopener'
+              >
+                <FaYoutube />
               </a>
             </div>
             </div>
