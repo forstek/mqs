@@ -56,7 +56,7 @@ class Layout extends React.Component {
       }
 
       case 'blog': {
-        window.open('https://masjidqolbunsaliim.wordpress.com')
+        window.open('https://masjidqolbunsaliim.wordpress.com/blog-feed/')
         break
       }
 
