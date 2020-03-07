@@ -8,7 +8,7 @@ const TransferPage = () => (
   <Layout>
     <SEO title="Transfer" />
     <div>
-	    <h1 style={{ textAlign: 'center', margin: '60px auto' }}>Metode penyerahan dana waqaf</h1>
+	    <h1 style={{ textAlign: 'center', margin: '60px auto' }}>Metode penyerahan dana infaq</h1>
 	    <div style={{ margin: '1.45rem auto' }}>
         <a href="https://drive.google.com/drive/folders/1tqUeZ5de4_i3o6PwElfR7qpLR5MIAGXy?usp=sharing" 
           target="_blank" 

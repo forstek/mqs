@@ -80,7 +80,7 @@ class Layout extends React.Component {
           </Menu.Item>
           <Menu.Item key="transfer">
             <Icon type="swap" />
-            Waqaf
+            Donasi
           </Menu.Item>
           <Menu.Item key="report">
             <Icon type="project" />

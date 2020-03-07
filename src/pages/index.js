@@ -25,9 +25,9 @@ const IndexPage = () => (
       </div>
       <p>Untuk itu kami memohon maaf jika selama proses pembangunan akan mengganggu kenyamanan jamaah dalam beribadah. Dan kami juga memohon do’a dan support dari jamaah sekalian, semoga Allah mudahkan ikhtiar kita dalam memakmurkan masjid kita tercinta. Aamiin. </p>
       <p>
-        Metode penyerahan dana waqaf dapat dilihat &nbsp;
+        Metode penyerahan donasi dapat dilihat &nbsp;
         <Link to='/transfer'>di sini</Link>.
-        Laporan progress waqaf dan pembangunan dapat dilihat &nbsp;
+        Laporan progress pembangunan dapat dilihat &nbsp;
         <a href='https://drive.google.com/drive/folders/1tqUeZ5de4_i3o6PwElfR7qpLR5MIAGXy?usp=sharing'
           target="_blank" 
           rel='noopener noreferer'>
