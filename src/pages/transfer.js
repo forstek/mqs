@@ -32,10 +32,10 @@ const TransferPage = () => (
 	    <p style={{ marginBottom: '0.25rem', fontSize: '1rem', fontWeight: 'bold' }}>100 7000 110</p>
 	    <p style={{ fontSize: '1rem' }}>a.n. DKM Qolbun Saliim</p>
 	    <br />
-	    <h4>Bank BRI</h4>
+	    {/*<h4>Bank BRI</h4>
 	    <p style={{ marginBottom: '0.25rem', fontSize: '1rem', fontWeight: 'bold' }}>0776 01 006366 50 8</p>
 	    <p style={{ fontSize: '1rem' }}>a.n. Erry Firman QQ DKM Qolbun Saliim</p>
-	    <br />
+	    <br />*/}
 	    <p style={{ marginBottom: '0.25rem' }}>Untuk metode transfer, mohon menyertakan kode unik 1 pada digit terakhir nominal transfer anda.</p>
 	    <p>Contoh: <strong>500.000.00<span style={{color: 'red'}}>1</span></strong></p>
 	    <p style={{ marginBottom: '0.25rem' }}>Kemudian konfirmasi dengan mengirimkan bukti transfer melalui whatsapp/sms/telpon ke Bapak Erry <a href='https://wa.me/628122182551'>+62 812-2182-551</a></p>
