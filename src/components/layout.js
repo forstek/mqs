@@ -26,7 +26,6 @@ class Layout extends React.Component {
 
   componentDidMount () {
     const currentLocation = window.location.pathname.substr(1)
-    console.log('currentLocation: ', currentLocation)
 
     this.setState({
       current: currentLocation || 'home'
