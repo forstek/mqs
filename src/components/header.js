@@ -61,11 +61,11 @@ const Header = ({ siteTitle, siteSubtitle }) => (
               >
                 <FaEnvelope/>
               </a>
-              <a  style={{ color: 'white', marginRight: '16px' }} 
+              {/*<a  style={{ color: 'white', marginRight: '16px' }} 
                 href={`tel:${contacts.phone}`}
               >
                 <FaPhone/>
-              </a>
+              </a>*/}
               <a  style={{ color: 'white', marginRight: '16px' }} 
                 href={`https://wa.me/${contacts.wa}?text=${contacts.waDefaultText}`}
                 target='_blank'
