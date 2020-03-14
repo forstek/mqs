@@ -39,6 +39,7 @@ const TransferPage = () => (
 	    <p style={{ marginBottom: '0.25rem' }}>Untuk metode transfer, mohon menyertakan kode unik 1 pada digit terakhir nominal transfer anda.</p>
 	    <p>Contoh: <strong>500.000.00<span style={{color: 'red'}}>1</span></strong></p>
 	    <p style={{ marginBottom: '0.25rem' }}>Kemudian konfirmasi dengan mengirimkan bukti transfer melalui whatsapp/sms/telpon ke Bapak Erry <a href='https://wa.me/628122182551'>+62 812-2182-551</a></p>
+	    <p style={{ marginBottom: '0.25rem' }}>Jika tidak mengirimkan konfirmasi, maka akan dicatat sebagai "Hamba Allah" dalam laporan infaq masjid.</p>
     </div>
   </Layout>
 )
