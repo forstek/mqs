@@ -105,7 +105,7 @@ class Layout extends React.Component {
           <footer style={{ marginTop: '100px', fontSize: '11px', textAlign: 'center', color: 'lightGrey' }}>
             Built with 🧡 by
             {` `}
-            <a href="https://forstek.co" target='_blank' style={{color: '#FC6F20'}}>forstek</a>
+            <a href="https://forstek-web.now.sh" target='_blank' style={{color: '#FC6F20'}}>forstek</a>
           </footer>
         </div>
       </>
